@@ -9,7 +9,7 @@ const modalConfig = {
           accentColor:"default",
           ethereum:{
                     appName: "Web3Modal",
-                    chains: [chains.goerli, chains.polygonMumbai],
+                    chains: [chains.polygonMumbai],
                     providers: [
                               providers.walletConnectProvider({
                                         projectId: "b81bdb9ce7441f4bfdd041942a612a40"
